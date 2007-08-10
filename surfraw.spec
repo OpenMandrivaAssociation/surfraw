@@ -1,6 +1,6 @@
 %define name surfraw
 %define version 1.0.7
-%define release 5mdk
+%define release %mkrel 6
 
 Summary: Shell Users' Revolutionary Front Rage Against the Web
 Name: %{name}
@@ -21,7 +21,7 @@ of popular WWW search engines and other artifacts of power.
 Forsake GUI idolatry! Apostate return!
 
 %prep
-%setup
+%setup -q
 %patch -p1
 
 %build
