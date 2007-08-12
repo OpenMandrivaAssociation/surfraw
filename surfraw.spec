@@ -1,8 +1,8 @@
 %define name surfraw
 %define version 1.0.7
-%define release %mkrel 6
+%define release %mkrel 7
 
-Summary: Shell Users' Revolutionary Front Rage Against the Web
+Summary: Command line interface to various web search engines
 Name: %{name}
 Version: %{version}
 Release: %{release}
