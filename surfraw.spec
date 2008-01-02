@@ -10,6 +10,7 @@ URL: http://surfraw.sf.net/
 Source0: ftp://ftp.netbsd.org/pub/NetBSD/misc/proff/surfraw-%{version}.tar.bz2
 License: GPL
 Group: Networking/WWW
+BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 Requires: links
 Patch: surfraw-1.0.7-no-graphical-browser-by-default.patch
