@@ -1,0 +1,11 @@
+--- surfraw-1.0.7/surfraw.conf.in.pix	Sat Feb  2 14:11:01 2002
++++ surfraw-1.0.7/surfraw.conf.in	Sat Feb  2 14:11:29 2002
+@@ -34,7 +34,7 @@
+ 
+ # graphical browser? defaults to yes for meatminds. text browser users can
+ # work it out how to change it.
+-def   SURFRAW_graphical		yes
++def   SURFRAW_graphical		no
+ 
+ # name/path of text browser executable
+ # e.g links, lynx, w3m
