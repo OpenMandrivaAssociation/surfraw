@@ -1,6 +1,6 @@
 %define name surfraw
 %define version 1.0.7
-%define release %mkrel 10
+%define release 11
 
 Summary: Command line interface to various web search engines
 Name: %{name}
