@@ -6,7 +6,7 @@ Summary: Command line interface to various web search engines
 Name: %{name}
 Version: %{version}
 Release: %{release}
-URL: http://surfraw.sf.net/
+URL: https://surfraw.sf.net/
 Source0: ftp://ftp.netbsd.org/pub/NetBSD/misc/proff/surfraw-%{version}.tar.bz2
 License: GPL
 Group: Networking/WWW
