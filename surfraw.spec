@@ -15,6 +15,11 @@ BuildArch: noarch
 Requires: links
 Patch: surfraw-1.0.7-no-graphical-browser-by-default.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Surfraw provides a fast unix command line interface to a variety
 of popular WWW search engines and other artifacts of power.
